@@ -38,6 +38,34 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editRideSource"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/source"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editRideDest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/destination"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:counterEnabled="true"
             app:counterMaxLength="200"
             app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
@@ -53,54 +81,19 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:counterEnabled="true"
-            app:counterMaxLength="200"
-            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editRideSource"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/source"
-                android:inputType="textMultiLine"
-                android:maxLength="200"
-                android:minHeight="100dp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:counterEnabled="true"
-            app:counterMaxLength="200"
-            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editRideDest"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/destination"
-                android:inputType="textMultiLine"
-                android:maxLength="200"
-                android:minHeight="100dp" />
-
-        </com.google.android.material.textfield.TextInputLayout>
 
         <ImageView
+            android:id="@+id/uploadRideImageView"
             android:layout_width="300sp"
             android:layout_height="300sp"
             android:layout_marginTop="20sp"
-            android:id="@+id/uploadRideImageView"
             android:contentDescription="@string/image" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/process"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/process"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/btnChooseVideo"
