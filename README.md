@@ -15,7 +15,7 @@ Let's make long-distance travel an unforgettable adventure, together. Join us an
 
 ## Screenshots
 
-| ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/Home) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/liked-rides) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/Maps) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/Dashboard) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/add-a-ride-1) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/add-a-ride-2) |
+| ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/home.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/liked-rides.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/Maps.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/dashboard.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/add-a-ride-1.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/add-a-ride-2.jpg) |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
 
 
@@ -33,7 +33,7 @@ git clone https://github.com/saugatlamichhane/EternityRide.git
 ### APK Installation
 1. Download the latest APK file from the "Releases" section of this GitHub repository.
 
-      | [Download APK](https://github.com/saugatlamichhane/EternityRide/releases/download/v1.0.0-alpha/app-debug.apk) | 
+      [Download APK](https://github.com/saugatlamichhane/EternityRide/releases/download/v1.0.0-alpha/app-debug.apk)
       --------------------------
 
 2. Enable "Unknown Sources" in your Android device settings to allow the installation of apps from external sources.
