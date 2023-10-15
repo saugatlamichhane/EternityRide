@@ -6,4 +6,5 @@ class Ride() {
     val source: String? = null
     val dest: String? = null
     val imgUrl: String? = null
+    //val op: String? = null
 }

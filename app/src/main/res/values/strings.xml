@@ -2,7 +2,7 @@
     <string name="app_name">Eternity Ride</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_liked">Liked Rides</string>
     <string name="destination_image">Destination Image</string>
     <string name="destination">Destination</string>
     <string name="description">Description</string>
