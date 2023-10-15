@@ -8,5 +8,15 @@
     <string name="description">Description</string>
     <string name="view_in_map">View In Map</string>
     <string name="like">Like</string>
+    <string name="add_a_ride">Add A Ride</string>
+    <string name="title">Title</string>
+    <string name="source">Source</string>
+    <string name="image">Image</string>
+    <string name="choose">Choose</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="my_ride">My Ride</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
 
 </resources>

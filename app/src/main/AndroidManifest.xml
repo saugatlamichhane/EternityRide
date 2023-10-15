@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".AddRideActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EternityRide"/>
+        <activity
             android:name=".SignInActivity"
             android:exported="true"
             android:theme="@style/Theme.SignIn">
@@ -24,8 +28,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:theme="@style/Theme.EternityRide">
-        </activity>
+            android:theme="@style/Theme.EternityRide" />
     </application>
 
 </manifest>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:spacing="16dp">
+
+        <TextView
+            android:id="@+id/addRideHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_a_ride"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editRideName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/title"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            app:counterMaxLength="200"
+            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editRideDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:maxLength="200"
+                android:minHeight="100dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            app:counterMaxLength="200"
+            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editRideSource"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/source"
+                android:inputType="textMultiLine"
+                android:maxLength="200"
+                android:minHeight="100dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            app:counterMaxLength="200"
+            app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Caption">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editRideDest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/destination"
+                android:inputType="textMultiLine"
+                android:maxLength="200"
+                android:minHeight="100dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/uploadRideImageView"
+            android:contentDescription="@string/image" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnChooseVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/choose" />
+
+        <Button
+            android:id="@+id/btnSaveRide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+</ScrollView>

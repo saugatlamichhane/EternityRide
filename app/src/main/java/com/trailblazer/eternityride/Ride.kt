@@ -1,10 +1,10 @@
 package com.trailblazer.eternityride
 
 class Ride() {
-    val name: String? = null
-    val desc: String? = null
-    val source: String? = null
-    val dest: String? = null
-    val imgUrl: String? = null
+    var name: String? = null
+    var desc: String? = null
+    var source: String? = null
+    var dest: String? = null
+    var imgUrl: String? = null
     //val op: String? = null
 }
