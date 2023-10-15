@@ -30,7 +30,9 @@ class SignInActivity : AppCompatActivity() {
             val signInIntent = AuthUI.getInstance()
                 .createSignInIntentBuilder()
                 .setAvailableProviders(providers)
-                .setLogo(R.drawable.ic_launcher_foreground)
+                .setIsSmartLockEnabled(false)
+                .setLogo(R.mipmap.ic_launcher)
+                .setTheme(R.style.Theme_SignIn)
                 .build()
             signInLauncher.launch(signInIntent)
         }
