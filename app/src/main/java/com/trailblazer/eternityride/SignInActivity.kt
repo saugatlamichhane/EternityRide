@@ -1,7 +1,6 @@
 package com.trailblazer.eternityride
 
 import android.content.Intent
-import android.content.res.Resources.Theme
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.firebase.ui.auth.AuthUI
@@ -19,25 +18,33 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
-        // Choose authentication providers
-        val providers = arrayListOf(
-            AuthUI.IdpConfig.GoogleBuilder().build()
-        )
+        val user = FirebaseAuth.getInstance().currentUser
 
-        // Create and launch sign-in intent
-        val signInIntent = AuthUI.getInstance()
-            .createSignInIntentBuilder()
-            .setAvailableProviders(providers)
-            .setLogo(R.drawable.ic_launcher_foreground)
-            .build()
-        signInLauncher.launch(signInIntent)
+        if(user == null) {
+            // Choose authentication providers
+            val providers = arrayListOf(
+                AuthUI.IdpConfig.GoogleBuilder().build()
+            )
+
+            // Create and launch sign-in intent
+            val signInIntent = AuthUI.getInstance()
+                .createSignInIntentBuilder()
+                .setAvailableProviders(providers)
+                .setLogo(R.drawable.ic_launcher_foreground)
+                .build()
+            signInLauncher.launch(signInIntent)
+        }
+        else {
+            val intent = Intent(this@SignInActivity, MainActivity::class.java)
+            startActivity(intent)
+        }
 
     }
     private fun onSignInResult(result: FirebaseAuthUIAuthenticationResult) {
-        val response = result.idpResponse
+        //val response = result.idpResponse
         if (result.resultCode == RESULT_OK) {
             // Successfully signed in
-            val user = FirebaseAuth.getInstance().currentUser
+            //val user = FirebaseAuth.getInstance().currentUser
             val intent = Intent(this@SignInActivity, MainActivity::class.java)
             startActivity(intent)
             // ...
