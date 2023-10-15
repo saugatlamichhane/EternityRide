@@ -15,7 +15,7 @@ Let's make long-distance travel an unforgettable adventure, together. Join us an
 
 ## Screenshots
 
-| ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/home.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/liked-rides.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/Maps.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/dashboard.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/add-a-ride-1.jpg) | ![Screenshot](https://github.com/saugatlamichhane/EternityRide/tree/master/images/add-a-ride-2.jpg) |
+| ![Screenshot](images/home.jpg) | ![Screenshot](images/liked-rides.jpg) | ![Screenshot](images/Maps.jpg) | ![Screenshot](images/dashboard.jpg) | ![Screenshot](images/add-a-ride-1.jpg) | ![Screenshot](images/add-a-ride-2.jpg) |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
 
 
